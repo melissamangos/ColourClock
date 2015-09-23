@@ -1,0 +1,52 @@
+/* Melissa Mangos */
+
+/* Body uses Google font, and outlines all text in black */
+body {
+	font-family: 'Abel', sans-serif;
+	color: white;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+	overflow: hidden;
+}
+
+/* Style for the current time, centered 
+in the middle of the webpage */
+#clock {
+	width: 80%; 
+	margin-top: 18%;
+	margin-left: auto; 
+	margin-right: auto;
+	text-align: center;
+	font-size: 10em;
+}
+
+/* Style for the colour code under the clock */
+#colour {
+	width: 40%; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 10px;
+}
+
+/*  Style for the div containing the link to 
+the github repository */
+#link {
+	width: 33%;
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align: center;
+}
+
+/* Style for the github image itself, 
+changes transparency when clicked */
+#image {
+	opacity: 0.5;
+	width: 25px;
+	height: 25px;
+}
+#image:hover {
+	opacity: 0.8;
+}
