@@ -1,5 +1,5 @@
 # Colour Clock
-Displays the current time as a hexidecimal colour. 
+Displays the current time as a hexadecimal colour. 
 <h2>How it Works</h2>
 The program uses Epoch time to determine the current time, and calculates a hex value based on the digits.
 The time is accurate to the current second, and the total timestamp is seven digits long.
