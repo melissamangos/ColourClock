@@ -2,7 +2,7 @@
 
 /* Body uses Google font, and outlines all text in black */
 body {
-	font-family: 'Abel', sans-serif;
+	font-family: 'Share Tech Mono';
 	color: white;
 	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 	overflow: hidden;
@@ -12,11 +12,10 @@ body {
 in the middle of the webpage */
 #clock {
 	width: 80%; 
-	margin-top: 18%;
 	margin-left: auto; 
 	margin-right: auto;
 	text-align: center;
-	font-size: 10em;
+	font-size: 9em;
 }
 
 /* Style for the colour code under the clock */
@@ -44,9 +43,71 @@ the github repository */
 changes transparency when clicked */
 #image {
 	opacity: 0.5;
-	width: 25px;
-	height: 25px;
+	width: 40px;
+	height: 40px;
 }
 #image:hover {
 	opacity: 0.8;
+}
+
+/* Media Queries */
+/* Screen sizes >= 960px */
+@media all and (min-width: 1185px) {
+	body {
+		font-size: 16px;
+	}
+
+	#clock {
+		margin-top: 18%;
+	}
+
+}
+
+/* Screen sizes < 960px and >= 680px */
+@media all and (min-width: 895px) and (max-width: 1184px) {
+	body {
+		font-size: 12px;
+	}
+
+	#clock {
+		margin-top: 25%;
+	}
+}
+
+/* Screen sizes < 680px and >= 515px */
+@media all and (min-width: 675px) and (max-width: 894px) {
+	body {
+		font-size: 9px;
+	}
+
+	#clock {
+		margin-top: 32%;
+	}
+
+	#image {
+		width: 25px;
+		height: 25px;
+	}
+}
+
+/* Screen sizes < 515px */
+@media all and (max-width: 674px) {
+	body {
+		font-size: 5px;
+	}
+
+	#clock {
+		margin-top: 50%;
+	}
+
+	#colour {
+		visibility: hidden;
+		width: 0px;
+		margin: 0;
+	}
+
+	#image {
+		width: 25px;
+		height: 25px;
+	}
 }

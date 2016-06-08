@@ -5,7 +5,7 @@
 //		(like the colour being #164239 at 16:42:39) then 
 // 		all colours would eventually be shown.
 // The colours would repeat themselves every 16^6 seconds = 16,777,216 seconds
-// 		or approximately 1351 days (or 3.7 years)!
+// 		or approximately 194 days
 var now;
 var colourID;
 var clockID;
